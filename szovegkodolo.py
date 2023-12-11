@@ -1,4 +1,6 @@
+# letters to be replaced
 alphabet = 'aábcdeéfghiíjklmnoóöőpqrstuúüűvwxyz'
+# capital version also replaced
 capitalalphabet = alphabet.upper()
 la = len(alphabet)
 
@@ -11,6 +13,7 @@ for i in range(len(a)):
     elif a[i] in capitalalphabet:
         mychr = capitalalphabet[la - capitalalphabet.find(a[i])-1]
     else:
+        # what is missing from the alphabe kept as it is
         mychr = a[i]
     b = b + mychr
 
