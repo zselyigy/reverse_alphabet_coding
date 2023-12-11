@@ -13,7 +13,7 @@ for i in range(len(a)):
     elif a[i] in capitalalphabet:
         mychr = capitalalphabet[la - capitalalphabet.find(a[i])-1]
     else:
-        # what is missing from the alphabe kept as it is
+        # what is missing from the alphabet is kept as it
         mychr = a[i]
     b = b + mychr
 
